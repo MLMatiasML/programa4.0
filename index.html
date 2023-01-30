@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/1150/1150635.png">
+    <link rel="stylesheet" type="text/css" href="/Apariencia/apariencia.css" />
+    <title>Curriculum vitae: Hoja de presentación</title>
+    <meta property="og:title" content="Curriculum vitae: Hoja de presentación" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content=" http://www.example.com" />
+    <meta property="og:image" content=" https://i.ibb.co/wwvpVNH/CVOG.png" />
+    <meta property="og:description"
+        content="Gordon Freeman es un hombre americano de Seattle, Graduado en MIT con un PhD en Física Teórica. Fue un empleado en Black Mesa." />
+</head>
+
+<body>
+    <h2>GORDON FREEMAN</h2>
+    </div>
+    <img src="Imagenes/FreemanV.png" alt="Foto de perfil" />
+
+    <!-- IMAGEN DE PERFIL DESDE ENLACE WEB
+        <img src="https://i.ibb.co/9HyzQMf/Freeman.png" alt="Foto de perfil" />
+        <h1>HOLA, SOY GORDON FREEMAN</h1>-->
+
+    <div>
+        <a href="#personal" onclick="mostrarInformacion('personal')" id="clickeando">INFORMACION PERSONAL </a>
+        <a href="#educacion" onclick="mostrarInformacion('educacion')" id="clickeando">EDUCACION Y HABILIDADES</a>
+        <a href="#experiencia" onclick="mostrarInformacion('experiencia')" id="clickeando">EXPERIENCIA LABORAL</a>
+    </div>
+    <div class="informacion" id="personal">
+        <h4>INFORMACIÓN PERSONAL</h4>
+        <ul>
+            <li>Nombre y apellido: Gordon Freeman </li>
+            <a href="#extraIP" onmouseover="informacionExtraIP('extraIP')" id="sobrelink">
+                Edad: 27 años (última registrada)</a>
+            <li>Domicilio: Clasificado</li>
+            <li>Residencia: Seattle, Washington</li>
+            <li>Estado civil: Soltero</li>
+            <li>Fecha de nacimiento: 15 de enero de 1989</li>
+            <li>Número de teléfono: (888) 344-9725</li>
+            <li>Contacto: therightman@gman.com</li>
+        </ul>
+    </div>
+    <div>
+        <a class="extraInfoIP" id="extraIP"> Actualmente en animación suspendida </a>
+    </div>
+    <div class="informacion" id="educacion">
+        <h4>EDUCACIÓN Y HABILIDADES</h4>
+        <ul>
+            <li>Dr. en Física teórica</li>
+            <li>PhD. MIT, físico teórico</li>
+            <li>Liderazgo</li>
+            <a href="#extraEA" onmouseover="informacionExtraEA('extraEA')" id="sobrelink">
+                Manejo de armas de fuego</a>
+        </ul>
+    </div>
+    <div>
+        <a class="extraInfoEA" id="extraEA"> Ante consecuencias imprevistas </a>
+    </div>
+    <div class="informacion" id="experiencia">
+        <h4>EXPERIENCIA LABORAL</h4>
+        <ul>
+            <li>Investigador asociado en Instalaciones de investigación Black Mesa</li>
+            <a href="#extraEL" onmouseover="informacionExtraEL('extraEL')" id="sobrelink">
+                Científico en laboratorio de materiales anómalos en Instalaciones de investigación Black Mesa</a>
+        </ul>
+    </div>
+    <div>
+        <a class="extraInfoEL" id="extraEL"> Asignación del nivel III </a>
+    </div>
+    <script src="Acciones/acciones.js"></script>
+</body>
+
+</html>
