@@ -55,7 +55,7 @@ div {
 }
 
 body {
-  background-image: url('/Imagenes/background.jpg');
+  background-image: url('Imagenes/background.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
 }
