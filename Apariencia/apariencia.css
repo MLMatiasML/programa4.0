@@ -1,0 +1,61 @@
+* {
+  font-family: "din";
+  font-weight: bold;
+  color: white;
+  font-size: 10px;
+}
+
+h2 {
+  margin: 0px;
+  color: #ff862c;
+  text-align: center;
+  font-size: 18px;
+  border-bottom: 3px solid #ff862c;
+  width: 180px;
+}
+
+h4 {
+  margin: 15px;
+  border-bottom: 2px solid white;
+  color: #ff862c;
+  width: 280px;
+}
+
+img {
+  width: 200px;
+  position: fixed;
+  margin-left: 570px;
+}
+
+div {
+  width: 200px;
+}
+
+#extraIP,
+#extraEA,
+#extraEL {
+  width: 300px;
+  display: none;
+}
+
+#sobrelink {
+  color: #ff862c;
+  display: list-item;
+}
+
+#clickeando {
+  width: 250px;
+}
+
+.informacion {
+  margin-left: 0px;
+  width: 310px;
+  border: 1px solid #ff862c;
+  display: none;
+}
+
+body {
+  background-image: url('/Imagenes/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
