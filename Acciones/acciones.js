@@ -9,16 +9,16 @@ function mostrarInformacion(accion) {
   document.getElementById(accion).style.display = "inline-block"
 }
 
-function informacionExtraIP(ad) {
-  var highlighted = document.getElementsByClassName("extraInfoIP")
-  for (var i = 0; i < 1; i++) {
+function informacionExtra(ad) {
+  var highlighted = document.getElementsByClassName("extraInfo")
+  for (var i = 0; i < 3; i++) {
     console.log(i)
     highlighted[i].style.display = "none"
   }
   console.log(ad)
   document.getElementById(ad).style.display = "inline-block"
 }
-
+/*
 function informacionExtraEA(ad2) {
   var highlighted2 = document.getElementsByClassName("extraInfoEA")
   for (var i = 0; i < 1; i++) {
@@ -37,4 +37,4 @@ function informacionExtraEL(ad3) {
   }
   console.log(ad3)
   document.getElementById(ad3).style.display = "inline-block"
-}
+}*/

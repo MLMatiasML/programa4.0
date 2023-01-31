@@ -47,6 +47,10 @@ div {
   width: 250px;
 }
 
+.extraInfo {
+  display: none;
+}
+
 .informacion {
   margin-left: 0px;
   width: 310px;
