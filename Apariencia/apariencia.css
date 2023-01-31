@@ -43,7 +43,8 @@ div {
   display: list-item;
 }
 
-#clickeando {
+#clickable {
+  margin-top: 50px;
   width: 250px;
 }
 
@@ -52,7 +53,7 @@ div {
 }
 
 .informacion {
-  margin-left: 0px;
+  margin-top: 50px;
   width: 310px;
   border: 1px solid #ff862c;
   display: none;
