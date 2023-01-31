@@ -4,27 +4,39 @@
   color: white;
   font-size: 10px;
 }
-
-h2 {
+h1 {
+  font-weight: bolder;
   margin: 0px;
   color: #ff862c;
-  text-align: center;
-  font-size: 18px;
+  font-size: 22px;
   border-bottom: 3px solid #ff862c;
-  width: 180px;
+  width: 240px;
+}
+h2 {
+  margin-top: 5px;
+  color: white;
+  font-size: 14px;
+  border-bottom: 1px solid white;
+  width: 67px;
+}
+
+span {
+  font-size: smaller;
+  color: #ff862c;
 }
 
 h4 {
-  margin: 15px;
+  margin: 9px;
   border-bottom: 2px solid white;
   color: #ff862c;
   width: 280px;
 }
 
 img {
-  width: 200px;
-  position: fixed;
-  margin-left: 570px;
+  vertical-align: top;
+  width: 280px;
+  position: absolute;
+  margin-left: 500px;
 }
 
 div {
@@ -32,8 +44,9 @@ div {
 }
 
 #extraIP,
-#extraEA,
+#extraEH,
 #extraEL {
+  margin-top: 15px;
   width: 300px;
   display: none;
 }
@@ -44,7 +57,7 @@ div {
 }
 
 #clickable {
-  margin-top: 50px;
+  margin-top: 25px;
   width: 250px;
 }
 
@@ -53,9 +66,9 @@ div {
 }
 
 .informacion {
-  margin-top: 50px;
+  margin-top: 30px;
   width: 310px;
-  border: 1px solid #ff862c;
+  border: 2px solid #ff862c;
   display: none;
 }
 
