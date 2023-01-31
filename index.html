@@ -46,9 +46,6 @@
             <li>Contacto: therightman@gman.com</li>
         </ul>
     </div>
-    <div>
-        <a class="extraInfo" id="extraIP"> Actualmente en animación suspendida </a>
-    </div>
     <div class="informacion" id="educacion">
         <!--<h4>EDUCACIÓN Y HABILIDADES</h4>-->
         <ul>
@@ -59,19 +56,18 @@
                 Manejo de armas de fuego</a>
         </ul>
     </div>
-    <div>
-        <a class="extraInfo" id="extraEH"> Ante consecuencias imprevistas </a>
-    </div>
     <div class="informacion" id="experiencia">
         <!--<h4>EXPERIENCIA LABORAL</h4>-->
         <ul>
             <li>Investigador asociado en Instalaciones de investigación Black Mesa</li>
-            <a href="#extraEL" onmouseover="informacionExtra('extraEL')" id="sobrelink">
+            <a href="#extraEL" onmousemove="informacionExtra('extraEL')" id="sobrelink">
                 Científico en laboratorio de materiales anómalos en Instalaciones de investigación Black Mesa</a>
         </ul>
     </div>
     <div>
-        <a class="extraInfo" id="extraEL"> Asignación del nivel III </a>
+        <a class="extraInfo" onmouseout="informacionExtra1('extraIP')" id="extraIP"> Actualmente en animación suspendida </a>
+        <a class="extraInfo" onmouseout="informacionExtra1('extraEH')" id="extraEH"> Ante consecuencias imprevistas </a>
+        <a class="extraInfo" onmouseout="informacionExtra1('extraEL')" id="extraEL"> Asignación del nivel III </a>
     </div>
     <script src="Acciones/acciones.js"></script>
 </body>

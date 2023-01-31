@@ -9,12 +9,24 @@ function mostrarInformacion(accion) {
   document.getElementById(accion).style.display = "inline-block"
 }
 
-function informacionExtra(ad) {
-  var highlighted = document.getElementsByClassName("extraInfo")
+function informacionExtra(a) {
+  var extra = document.getElementsByClassName("extraInfo")
   for (var i = 0; i < 3; i++) {
     console.log(i)
-    highlighted[i].style.display = "none"
+    extra[i].display = "none"
   }
-  console.log(ad)
-  document.getElementById(ad).style.display = "inline-block"
+  console.log(a)
+  document.getElementById(a).style.display = "inline-block"
+
+}
+
+function informacionExtra1(b) {
+  var extra = document.getElementsByClassName("extraInfo")
+  for (var i = 0; i < 3; i++) {
+    console.log(i)
+    extra[i].display = "inline-block"
+  }
+  console.log(b)
+  document.getElementById(b).style.display = "none"
+
 }
