@@ -17,26 +17,26 @@
 </head>
 
 <body>
-    <h1>GORDON FREEMAN</h1>
-    <h2>Científico</h2>
+    <h1><u>GORDON FREEMAN</u></h1>
+    <h2><u id="st">PROFESIÓN: Científico</u></h2>
     </div>
     <img src="Imagenes/FreemanV.png" alt="Foto de perfil" />
-    <span>__________________________________________________________</span>
+    <br>_______________________________________________________</br>
 
     <!-- IMAGEN DE PERFIL DESDE ENLACE WEB
         <img src="https://i.ibb.co/9HyzQMf/Freeman.png" alt="Foto de perfil" />
         <h1>HOLA, SOY GORDON FREEMAN</h1>-->
 
     <div id="clickable">
-        <a href="#personal" onclick="mostrarInformacion('personal')" id="clickeando">INFORMACION PERSONAL </a>
-        <a href="#educacion" onclick="mostrarInformacion('educacion')" id="clickeando">EDUCACION Y HABILIDADES</a>
-        <a href="#experiencia" onclick="mostrarInformacion('experiencia')" id="clickeando">EXPERIENCIA LABORAL</a>
+        <a href="#personal" onclick="mostrarInformacion('clickeandoIP', 'personal')" id="clickeandoIP">INFORMACION PERSONAL </a>
+        <a href="#educacion" onclick="mostrarInformacion('clickeandoEH', 'educacion')" id="clickeandoEH">EDUCACION Y HABILIDADES</a>
+        <a href="#experiencia" onclick="mostrarInformacion('clickeandoEL', 'experiencia')" id="clickeandoEL">EXPERIENCIA LABORAL</a>
     </div>
     <div class="informacion" id="personal">
         <!--<h4>INFORMACIÓN PERSONAL</h4>-->
         <ul>
             <li>Nombre y apellido: Gordon Freeman </li>
-            <a href="#extraIP" onmouseover="informacionExtra('extraIP')" id="sobrelink">
+            <a href="#extraIP" onmouseover="infoExtraShow('extraIP')" id="sobrelink">
                 Edad: 27 años (última registrada)</a>
             <li>Domicilio: Clasificado</li>
             <li>Residencia: Seattle, Washington</li>
@@ -52,7 +52,7 @@
             <li>Dr. en Física teórica</li>
             <li>PhD. MIT, físico teórico</li>
             <li>Liderazgo</li>
-            <a href="#extraEH" onmouseover="informacionExtra('extraEH')" id="sobrelink">
+            <a href="#extraEH" onmouseover="infoExtraShow('extraEH')" id="sobrelink">
                 Manejo de armas de fuego</a>
         </ul>
     </div>
@@ -60,14 +60,14 @@
         <!--<h4>EXPERIENCIA LABORAL</h4>-->
         <ul>
             <li>Investigador asociado en Instalaciones de investigación Black Mesa</li>
-            <a href="#extraEL" onmousemove="informacionExtra('extraEL')" id="sobrelink">
+            <a href="#extraEL" onmousemove="infoExtraShow('extraEL')" id="sobrelink">
                 Científico en laboratorio de materiales anómalos en Instalaciones de investigación Black Mesa</a>
         </ul>
     </div>
     <div>
-        <a class="extraInfo" onmouseout="informacionExtra1('extraIP')" id="extraIP"> Actualmente en animación suspendida </a>
-        <a class="extraInfo" onmouseout="informacionExtra1('extraEH')" id="extraEH"> Ante consecuencias imprevistas </a>
-        <a class="extraInfo" onmouseout="informacionExtra1('extraEL')" id="extraEL"> Asignación del nivel III </a>
+        <a class="extraInfo" onmouseout="infoExtraHide('extraIP')" id="extraIP"> Actualmente en animación suspendida </a>
+        <a class="extraInfo" onmouseout="infoExtraHide('extraEH')" id="extraEH"> Ante consecuencias imprevistas </a>
+        <a class="extraInfo" onmouseout="infoExtraHide('extraEL')" id="extraEL"> Asignación del nivel III </a>
     </div>
     <script src="Acciones/acciones.js"></script>
 </body>

@@ -4,19 +4,17 @@
   color: white;
   font-size: 10px;
 }
-h1 {
+u {
   font-weight: bolder;
   margin: 0px;
   color: #ff862c;
   font-size: 22px;
-  border-bottom: 3px solid #ff862c;
   width: 240px;
 }
-h2 {
-  margin-top: 5px;
+#st {
+  font-weight: bold;
   color: white;
   font-size: 14px;
-  border-bottom: 1px solid white;
   width: 67px;
 }
 
