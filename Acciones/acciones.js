@@ -21,13 +21,13 @@ function infoExtraShow(a) {
   console.log(a)
   document.getElementById(a).style.display = "inline-block"
 }
-
-function infoExtraHide(a) {
-  var show = document.getElementsByClassName("extraInfo")
+/*Ocultamiento de la leyenda como información complementaria
+function infoExtraHide(b) {
+  var hide = document.getElementsByClassName("extraInfo")
   for (var i = 0; i <= 2; i++) {
     console.log(i)
-    show[i].style.display = "none"
+    hide[i].style.display = "none"
   }
-  console.log(a)
-  document.getElementById(a).style.display = "none"
-}
+  console.log(b)
+  document.getElementById(b).style.display = "none"
+}*/
