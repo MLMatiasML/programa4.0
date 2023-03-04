@@ -40,7 +40,7 @@
         <!--<h4>INFORMACIÓN PERSONAL</h4>-->
         <ul>
             <li>Nombre y apellido: Gordon Freeman </li>
-            <a href="#extraIP" onmouseover="infoExtraShow('extraIP')" id="sobrelink">
+            <a href="#extraIP" onmouseover="infoExtraShow('extraIP')" onmouseout="infoExtraHide('extraIP')" id="sobrelink">
                 Edad: 27 años (última registrada)</a>
             <li>Domicilio: Clasificado</li>
             <li>Residencia: Seattle, Washington</li>
@@ -56,7 +56,7 @@
             <li>Dr. en Física teórica</li>
             <li>PhD. MIT, físico teórico</li>
             <li>Liderazgo</li>
-            <a href="#extraEH" onmouseover="infoExtraShow('extraEH')" id="sobrelink">
+            <a href="#extraEH" onmouseover="infoExtraShow('extraEH')" onmouseout="infoExtraHide('extraEH')" id="sobrelink">
                 Manejo de armas de fuego</a>
         </ul>
     </div>
@@ -64,15 +64,15 @@
         <!--<h4>EXPERIENCIA LABORAL</h4>-->
         <ul>
             <li>Investigador asociado en Instalaciones de investigación Black Mesa</li>
-            <a href="#extraEL" onmousemove="infoExtraShow('extraEL')" id="sobrelink">
+            <a href="#extraEL" onmouseover="infoExtraShow('extraEL')" onmouseout="infoExtraHide('extraEL')" id="sobrelink">
                 Científico en laboratorio de materiales anómalos en Instalaciones de investigación Black Mesa</a>
         </ul>
     </div>
     <div>
-        <a class="extraInfo" onmouseout="infoExtraHide('extraIP')" id="extraIP"> Actualmente en animación suspendida
+        <a class="extraInfo" id="extraIP"> Actualmente en animación suspendida
         </a>
-        <a class="extraInfo" onmouseout="infoExtraHide('extraEH')" id="extraEH"> Ante consecuencias imprevistas </a>
-        <a class="extraInfo" onmouseout="infoExtraHide('extraEL')" id="extraEL"> Asignación del nivel III </a>
+        <a class="extraInfo" id="extraEH"> Ante consecuencias imprevistas </a>
+        <a class="extraInfo" id="extraEL"> Asignación del nivel III </a>
     </div>
     <script src="Acciones/acciones.js"></script>
 </body>
