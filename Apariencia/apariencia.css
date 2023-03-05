@@ -51,7 +51,7 @@ div {
   display: none;
 }
 
-#sobrelink {
+.sobrelink {
   color: #ff862c;
   display: list-item;
 }
