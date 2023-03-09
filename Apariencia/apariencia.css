@@ -5,12 +5,19 @@
   font-size: 10px;
 }
 
-u {
+.t {
   font-weight: bolder;
   margin: 0px;
   color: #ff862c;
   font-size: 22px;
   width: 240px;
+}
+
+.tc {
+  font-weight: bold;
+  color: #ff862c;
+  font-size: 14px;
+  width: 67px;
 }
 
 .st {
