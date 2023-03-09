@@ -1,3 +1,5 @@
+
+
 * {
   font-family: "din";
   font-weight: bold;
@@ -13,6 +15,11 @@
   width: 240px;
 }
 
+.img {
+  margin-left: 380px;
+  width: 20%;
+}
+
 .tc {
   font-weight: bold;
   color: #ff862c;
@@ -25,11 +32,6 @@
   color: white;
   font-size: 14px;
   width: 67px;
-}
-
-span {
-  font-size: smaller;
-  color: #ff862c;
 }
 
 h4 {

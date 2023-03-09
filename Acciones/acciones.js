@@ -8,12 +8,12 @@ function mostrarInformacion(titulo, accion) {
   console.log(accion)
   var element = document.getElementById(accion)
   element.style.display = "inline-block"
-  var clickable = document.getElementById("clickable")
+  /**var clickable = document.getElementById("clickable")
   clickable.children[0].style.color = "#ffffff"
   clickable.children[1].style.color = "#ffffff"
   clickable.children[2].style.color = "#ffffff"
   var elementitulo = document.getElementById(titulo)
-  elementitulo.style.color = "#ff862c"
+  elementitulo.style.color = "#ff862c"*/
 }
 
 function infoExtraShow(a) {
