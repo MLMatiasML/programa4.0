@@ -69,7 +69,7 @@ div {
 }
 
 .extraInfo {
-  display: none;
+  display: block;
 }
 
 .informacion {

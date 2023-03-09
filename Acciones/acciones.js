@@ -20,7 +20,7 @@ function infoExtraShow(a) {
   var show = document.getElementsByClassName("extraInfo")
   for (var i = 0; i <= 2; i++) {
     console.log(i)
-    show[i].style.display = "none"
+    show[i].style.display = "block"
   }
   document.getElementById(a).style.display = "inline-block"
 }
